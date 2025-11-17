@@ -1,7 +1,6 @@
 from selenium import webdriver
 
 
-# Função simulando um seletor autorreparável
 def find_element_autorepair(driver, selector):
     try:
         # Tenta encontrar o seletor original
